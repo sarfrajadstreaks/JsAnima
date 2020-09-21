@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import PI_Chart from './piChart';
-import Clock from './clock'
+import PICHART from './components/pichart';
+import Clock from './components/clock'
+import Chain from './components/chain'
 
 class Header extends React.Component{
   render() {
@@ -25,9 +26,9 @@ class Content extends React.Component{
     render() {
       return (
         <div className='content'>
-          <div className="animation"><PI_Chart /></div>
+          <div className="animation"><PICHART /></div>
           <div className="animation"><Clock/></div>
-          <div className="animation"></div>
+          <div className="animation"><Chain/></div>
           <div className="animation"></div>
           <div className="animation"></div>
           <div className="animation"></div>
