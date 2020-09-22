@@ -4,7 +4,7 @@ import './index.css';
 import PICHART from './components/pichart';
 import Clock from './components/clock'
 import Chain from './components/chain'
-
+import Terrain from './components/Terrain'
 class Header extends React.Component{
   render() {
     return (
@@ -29,7 +29,7 @@ class Content extends React.Component{
           <div className="animation"><PICHART /></div>
           <div className="animation"><Clock/></div>
           <div className="animation"><Chain/></div>
-          <div className="animation"></div>
+          <div className="animation"><Terrain/></div>
           <div className="animation"></div>
           <div className="animation"></div>
           <div className="animation"></div>
